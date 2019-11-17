@@ -1,9 +1,9 @@
 """
-Algoritmos de casamento exato
+Algoritmos de casamento
 """
 
-def forca_bruta(T, P):
 
+def forca_bruta(P, T):
     """
     Realiza a busca pelo método de força brura
     :param str T:
@@ -18,10 +18,9 @@ def forca_bruta(T, P):
 
     for i in range(n - m + 1):
 
-        k, j = 0, 0
+        k, j = i, 0
 
-        while j < m and T[k] == P[k]:
-
+        while j < m and T[k] == P[j]:
             j += 1
             k += 1
 
@@ -30,7 +29,7 @@ def forca_bruta(T, P):
     return r
 
 
-def bmh(T, P):
+def bmh(P, T):
 
     """
     Realiza a busca pelo método Boyer-Moore-Horspool
@@ -63,7 +62,7 @@ def bmh(T, P):
 
     return r
 
-def bmhs(T, P):
+def bmhs(P, T):
 
     """
     Realiza a busca pelo método Boyer-Moore-Horspool-Sunday
@@ -75,13 +74,13 @@ def bmhs(T, P):
     m = len(P)
     n = len(T)
 
-    r, d = [], [ m + 1 for _ in range(256)]
+    r, d = [], [ m + 1 for _ in range(1000)]
 
     for i in range(m): d[ ord(P[i]) ] = m - i
 
     i = m - 1
 
-    while i < n:
+    while i < n-1:
 
         k, j = i, m - 1
 
@@ -111,7 +110,7 @@ def shift_and(P, T):
     m = len(P)
     n = len(T)
 
-    alf = []| 2**(m-1)
+    alf = []
     M = {}
 
     for i in T:
@@ -134,7 +133,7 @@ def shift_and(P, T):
 
     return r
 
-def shift_and_aprox(P, T, k):
+def shift_and_aprox(P, T, k = 2):
 
     """
     Realiza a busca por meio de shift-and exato

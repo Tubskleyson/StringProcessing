@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe351bc-d2cd-446a-9c02-b1219da20c74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/StringProcessing-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/1000.lorem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/1500.lorem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/2000.lorem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/500.lorem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/5000.lorem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/dataset1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/dataset2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/dataset3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figura1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figura2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura1-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura2-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura2-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura3-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura3-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/StringProcessing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/StringProcessing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/StringProcessing-checkpoint.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/StringProcessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/StringProcessing.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algoritmos.py" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmos.py" afterDir="false" />
     </list>
@@ -17,6 +30,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="stringprocessing" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,9 +52,18 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowPython Console.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="StringProcessing" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="StringProcessing" />
+      </console-settings>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,11 +77,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="algoritmos" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="StringProcessing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -72,8 +100,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="StringProcessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.algoritmos" />
+      <item itemvalue="Python.main" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.algoritmos" />
       </list>
     </recent_temporary>
@@ -90,6 +142,12 @@
       <updated>1573858156685</updated>
       <workItem from="1573858169095" duration="3595000" />
       <workItem from="1573916609084" duration="6541000" />
+      <workItem from="1573945200281" duration="4754000" />
+      <workItem from="1573939733125" duration="319000" />
+      <workItem from="1573940069128" duration="1925000" />
+      <workItem from="1573942451275" duration="148000" />
+      <workItem from="1573943273688" duration="2151000" />
+      <workItem from="1573950901567" duration="3112000" />
     </task>
     <servers />
   </component>
@@ -113,6 +171,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/stringprocessing$main.coverage" NAME="main Coverage Results" MODIFIED="1573953934334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/StringProcessing$algoritmos.coverage" NAME="algoritmos Coverage Results" MODIFIED="1573866842791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
