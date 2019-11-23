@@ -2,28 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe351bc-d2cd-446a-9c02-b1219da20c74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/dataset1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/dataset2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/dataset3.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figura1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figura2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figuras/figura1-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figuras/figura1-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figuras/figura1-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figuras/figura2-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figuras/figura2-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figuras/figura2-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figuras/figura3-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figuras/figura3-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figuras/figura3-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/StringProcessing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/StringProcessing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoritmos/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoritmos/bmh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoritmos/bmhs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoritmos/forca_bruta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoritmos/shift_and.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoritmos/shift_and_aprox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/dataset6.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura6-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura6-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura6-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mprofile_20191123114108.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mprofile_20191123114207.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mprofile_20191123114215.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mprofile_20191123114236.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mprofile_20191123114303.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mprofile_20191123114329.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/StringProcessing-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringProcessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/StringProcessing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algoritmos.py" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algoritmos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figura1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figura2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/time_plots.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +92,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algoritmos.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\eduar\projetos\stringprocessing\algoritmos_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,13 +105,16 @@
       <module name="StringProcessing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\eduar\projetos\stringprocessing\time_plots.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,6 +152,8 @@
       <workItem from="1573942451275" duration="148000" />
       <workItem from="1573943273688" duration="2151000" />
       <workItem from="1573950901567" duration="3112000" />
+      <workItem from="1574089598686" duration="76000" />
+      <workItem from="1574516692825" duration="3405000" />
     </task>
     <servers />
   </component>
