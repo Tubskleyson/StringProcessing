@@ -56,7 +56,7 @@ for tamanho in tamanhos:
 
         for _ in range(k):
 
-            linha["Tempo"] += timeit(funcs[algoritmo], ['doll', text]) / k
+            linha["Tempo"] += timeit(funcs[algoritmo], ['ultricies orci criadus est', text]) / k
 
         data.append(linha)
 
@@ -68,19 +68,16 @@ n = len(listdir('datasets')) + 1
 
 frame.to_csv(f"datasets/dataset{ n }.csv")
 
-plot1 = sns.barplot(x = frame["Tamanho"], y = frame["Tempo"], hue=frame["Algoritmo"]).get_figure()
-plot1.savefig(f"figuras/figura{ n }-1.png")
+sns.lmplot(x = "Tamanho", y = "Tempo", hue="Algoritmo", data = frame).savefig(f"figuras/figura{ n }-1.png")
 
 frame2 = frame[frame["Algoritmo"] != "Shift-And Aproximado"]
 
 plt.clf()
 
-plot2 = sns.barplot(x = frame2["Tamanho"], y = frame2["Tempo"], hue=frame2["Algoritmo"]).get_figure()
-plot2.savefig(f"figuras/figura{ n }-2.png")
+sns.lmplot(x = "Tamanho", y = "Tempo", hue="Algoritmo", data = frame2).savefig(f"figuras/figura{ n }-2.png")
 
 frame3 = frame2[frame2["Algoritmo"] != "Shift-And Exato"]
 
 plt.clf()
 
-plot3 = sns.barplot(x = frame3["Tamanho"], y = frame3["Tempo"], hue=frame3["Algoritmo"]).get_figure()
-plot3.savefig(f"figuras/figura{ n }-3.png")
+sns.lmplot(x = "Tamanho", y = "Tempo", hue="Algoritmo", data = frame3).savefig(f"figuras/figura{ n }-3.png")

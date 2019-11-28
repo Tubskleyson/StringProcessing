@@ -2,29 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe351bc-d2cd-446a-9c02-b1219da20c74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algoritmos/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algoritmos/bmh.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algoritmos/bmhs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algoritmos/forca_bruta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algoritmos/shift_and.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algoritmos/shift_and_aprox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/dataset6.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figuras/figura6-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figuras/figura6-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figuras/figura6-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mprofile_20191123114108.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mprofile_20191123114207.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mprofile_20191123114215.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mprofile_20191123114236.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mprofile_20191123114303.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mprofile_20191123114329.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algoritmos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/figura1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/figura2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/time_plots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/dataset10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/dataset11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/dataset12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/dataset7.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/dataset8.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/dataset9.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura10-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura10-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura10-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura11-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura11-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura11-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura12-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura12-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura12-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura9-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura9-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figuras/figura9-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_plots.py" beforeDir="false" afterPath="$PROJECT_DIR$/time_plots.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,6 +150,7 @@
       <workItem from="1573950901567" duration="3112000" />
       <workItem from="1574089598686" duration="76000" />
       <workItem from="1574516692825" duration="3405000" />
+      <workItem from="1574956159765" duration="2421000" />
     </task>
     <servers />
   </component>
