@@ -35,8 +35,14 @@ data = []
 tamanhos = [500, 1000, 1500, 2000, 5000]
 
 k = 500
+p = "et"
 
-if len(argv )> 1: k = int(argv[1])
+if len(argv )> 1:
+
+    for i in argv[1:]:
+
+        if i.isnumeric(): k = int(i)
+        else: p = i
 
 for tamanho in tamanhos:
 
@@ -56,7 +62,9 @@ for tamanho in tamanhos:
 
         for _ in range(k):
 
-            linha["Tempo"] += timeit(funcs[algoritmo], ['ultricies orci criadus est', text]) / k
+            linha["Tempo"] += timeit(funcs[algoritmo], [p, text]) / k
+
+        linha["Tempo"] /= 1000000
 
         data.append(linha)
 
@@ -68,16 +76,16 @@ n = len(listdir('datasets')) + 1
 
 frame.to_csv(f"datasets/dataset{ n }.csv")
 
-sns.lmplot(x = "Tamanho", y = "Tempo", hue="Algoritmo", data = frame).savefig(f"figuras/figura{ n }-1.png")
+sns.lmplot(x = "Tamanho", y = "Tempo", hue="Algoritmo", data = frame).savefig(f"figuras/figura{ n }-1({p}).png")
 
 frame2 = frame[frame["Algoritmo"] != "Shift-And Aproximado"]
 
 plt.clf()
 
-sns.lmplot(x = "Tamanho", y = "Tempo", hue="Algoritmo", data = frame2).savefig(f"figuras/figura{ n }-2.png")
+sns.lmplot(x = "Tamanho", y = "Tempo", hue="Algoritmo", data = frame2).savefig(f"figuras/figura{ n }-2({p}).png")
 
 frame3 = frame2[frame2["Algoritmo"] != "Shift-And Exato"]
 
 plt.clf()
 
-sns.lmplot(x = "Tamanho", y = "Tempo", hue="Algoritmo", data = frame3).savefig(f"figuras/figura{ n }-3.png")
+sns.lmplot(x = "Tamanho", y = "Tempo", hue="Algoritmo", data = frame3).savefig(f"figuras/figura{ n }-3({p}).png")

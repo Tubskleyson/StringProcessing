@@ -14,14 +14,11 @@ def shift_and(P, T):
     m = len(P)
     n = len(T)
 
-    alf = []
     M = {}
 
-    for i in T:
+    for c in P:
+        M[c] = 0
 
-        if i not in alf: alf.append(i)
-
-    for c in alf: M[c] = 0
 
     for j in range(m):
         M[P[j]] = M[P[j]] | 2**(m-j-1)
@@ -31,15 +28,18 @@ def shift_and(P, T):
 
     for i in range(n):
 
-        R = ((R >> 1) | 2 ** (m-1)) & M[T[i]]
+        if T[i] in P: R = ((R >> 1) | 2 ** (m-1)) & M[T[i]]
+        else: R = ((R >> 1) | 2 ** (m-1)) & 0
 
         if R & 1 != 0 :r.append(i - m + 1)
 
     return r
 
-if len(argv) > 2:
+if __name__ == "__main__":
 
-    p = argv[1]
-    t = open(argv[2]).read()
+    if len(argv) > 2:
 
-    print(shift_and(p,t))
+        p = argv[1]
+        t = open(argv[2]).read()
+
+        print(shift_and(p,t))

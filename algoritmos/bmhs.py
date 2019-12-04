@@ -33,10 +33,11 @@ def bmhs(P, T):
 
     return  r
 
+if __name__ == "__main__":
 
-if len(argv) > 2:
+    if len(argv) > 2:
 
-    p = argv[1]
-    t = open(argv[2]).read()
+        p = argv[1]
+        t = open(argv[2]).read()
 
-    print(bmhs(p,t))
+        print(bmhs(p,t))
