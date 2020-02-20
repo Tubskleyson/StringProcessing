@@ -6,7 +6,7 @@ Este projeto visa fazer uma análise de desempenho de alguns métodos de process
   - [Boyer-Moore-Horspool](algoritmos/bmh.py)
   - [Boyer-Moore-Horspool-Sunday](algoritmos/bmhs.py)
   - [Shift-And](algoritmos/shift_and.py) 
-  - [Shift-And Aproximado](algoritmos/shift_and_aprox)
+  - [Shift-And Aproximado](algoritmos/shift_and_aprox.py)
   
 De posse desses algorimos, foram realizados sucessivos testes que levaram em consideração tamanho de entrada, tamanho do texto de busca, e tempo de execução. As figuras a seguir representam os resultados obtidos.
 
@@ -22,8 +22,8 @@ De posse desses algorimos, foram realizados sucessivos testes que levaram em con
 
 ### Buscando pelo padrão "Quisque eget ligula in tortor commodo"
 
-![](figuras/figura9-1(Quisque%20eget%20ligula%20in%20torto%20commodo).png)
-![](figuras/figura9-3(Quisque%20eget%20ligula%20in%20torto%20commodo).png)
+![](figuras/figura9-1(Quisque%20eget%20ligula%20in%20tortor%20commodo).png)
+![](figuras/figura9-3(Quisque%20eget%20ligula%20in%20tortor%20commodo).png)
 
 
 Mais detalhes sobre os testes e conclusões podem ser achados no [artigo](artigo.pdf) disponível no repositório.
